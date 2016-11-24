@@ -54,27 +54,27 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
     private Marker marker;
     private Button setButton, resetButton;
     private LocationManager locationManager;
-    private LocationListener locationListener = new LocationListener() {
-        @Override
-        public void onLocationChanged(Location location) {
-
-        }
-
-        @Override
-        public void onStatusChanged(String s, int i, Bundle bundle) {
-
-        }
-
-        @Override
-        public void onProviderEnabled(String s) {
-
-        }
-
-        @Override
-        public void onProviderDisabled(String s) {
-
-        }
-    };
+//    private LocationListener locationListener = new LocationListener() {
+//        @Override
+//        public void onLocationChanged(Location location) {
+//
+//        }
+//
+//        @Override
+//        public void onStatusChanged(String s, int i, Bundle bundle) {
+//
+//        }
+//
+//        @Override
+//        public void onProviderEnabled(String s) {
+//
+//        }
+//
+//        @Override
+//        public void onProviderDisabled(String s) {
+//
+//        }
+//    };
     private ImageView aim;
     private ActionBar actionBar;
     private boolean isGpsEnable;
